@@ -13,7 +13,7 @@ To start with, let’s call out all the possibilities or **‘WHAT TO TRY NEXT?�
 
 
 | No. | <p align="left"> **‘WHAT TO TRY NEXT?’** </p>|
-|---  |---------------------------------------------------------------------|
+|---  |:---------------------------------------------------------------------|
 | 1.  | <p align="left"> Try Smaller Set of Features                    </p>|
 | 2.  | <p align="left"> Add New Features                               </p>|
 | 3.  | <p align="left"> Add Polynomial Features                        </p>|
