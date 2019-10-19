@@ -23,7 +23,7 @@ To start with, let’s call out all the possibilities or **‘WHAT TO TRY NEXT?�
 
 
 
-_<div style="text-align: right"> We will revisit this table to make smart choices and create our **TOOL BOX**. </div>_
+_<p align="right"> We will revisit this table to make smart choices and create our **TOOL BOX**. </p>_
 
 The above-mentioned diagnosis will basically help to find a **Bias Variance Trade Off**.  
 Let’s visualize this concept briefly with a simple figure to illustrate the _overfitting_ (High Variance) and _underfitting_ (High Bias). 
