@@ -28,6 +28,8 @@ _<p align="right"> We will revisit this table to make smart choices and create o
 The above-mentioned diagnosis will basically help to find a **Bias Variance Trade Off**.  
 Let’s visualize this concept briefly with a simple figure to illustrate the _overfitting_ (High Variance) and _underfitting_ (High Bias). 
 
+<br />
+<br />
 
 ## The Bias Variance Trade Off
 
@@ -85,6 +87,9 @@ for i, d in enumerate(degrees):
 ```
 
 <img src="graph-Images/bias-variance.png"> </img>
+
+<br />
+<br />
 
 ## Validation Curves
 
@@ -164,6 +169,7 @@ Image Source: [Python Data Science Handbook by Jake VanderPlas](https://jakevdp.
 |5. |Increase Regularization Parameter|                          |               |
 |6. |Get More Training Examples       |                          |               |
 
+<br />
 
 ### 2. Varying Regularization Parameter
 
@@ -171,8 +177,8 @@ Image Source: [Python Data Science Handbook by Jake VanderPlas](https://jakevdp.
 
 We know that, the introduction of basis functions (PolynomialFeatures, GaussianFeatures etc.) into our linear regression makes the model much more flexible.  
 
-_<p align = "center"> But, does it come with the risk of something? </p>_
-_<p align = "center"> YES, and the answer is _**overfitting** </p>_
+_<p align = "center"> But, does it come with the risk of something?
+YES, and the answer is **overfitting** </p>_
 
 **Reason**: Our model is being too flexible to capture the outliers or extreme values in our training dataset.  
 **Solution**: Regularization
@@ -182,6 +188,7 @@ _<p align = "center"> YES, and the answer is _**overfitting** </p>_
 * So, we keep all the features, but reduce the magnitude or values of parameters.
 
 <img src="graph-Images/validationCurveLambda.png"> </img>
+
 Image Source Code: [Python Data Science Handbook by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/05.03-hyperparameters-and-model-validation.html)
 
 |No.|**‘WHAT TO TRY NEXT?’**           |**Results**                 |**Fixes**      |
@@ -193,7 +200,8 @@ Image Source Code: [Python Data Science Handbook by Jake VanderPlas](https://jak
 |5. |Increase Regularization Parameter |Increases Penalty           |_High Variance_|
 |6. |Get More Training Examples        |                            |               |
 
-
+<br />
+<br />
 
 ## Learning Curves
 
@@ -247,6 +255,9 @@ plt.show()
     * while the cross-validation score will continue to increase, until they meet in the middle.
 * We can expect that adding more training data will help.
 
+<br />
+<br />
+
 |No.|**‘WHAT TO TRY NEXT?’**           |**Results**                |**Fixes**      |
 |-- |:---------------------------------|:--------------------------|:--------------|
 |1. |Try Smaller Set of Features       |Decreases Model Complexity |_High Variance_|
@@ -256,10 +267,12 @@ plt.show()
 |5. |Increase Regularization Parameter |Increases Penalty          |_High Variance_|
 |6. |Get More Training Examples        |Increases Sample Size      |_High Variance_|
 
-
+<br />
 
 _<p align = center> So as promised, here we have our **TOOL BOX - ‘WHAT TO TRY NEXT?’**  
     which, along with Validation and Learning Curves, will help us make smart decisions. </p>_
+
+<br />
 
 ### References
 * A lecture from **‘Machine Learning – Stanford Online’** at Coursera, by **Prof. Andrew Ng**
