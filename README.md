@@ -248,9 +248,9 @@ plt.show()
 * We can expect that adding more training data will help.
 
 |No.|**‘WHAT TO TRY NEXT?’**           |**Results**                |**Fixes**      |
-|-- |:---------------------------------|:--------- ----------------|:--------------|
+|-- |:---------------------------------|:--------------------------|:--------------|
 |1. |Try Smaller Set of Features       |Decreases Model Complexity |_High Variance_|
-|2. |Add New Features                  | Increases Model Complexity| _High Bias_   |
+|2. |Add New Features                  |Increases Model Complexity |_High Bias_    |
 |3. |Add Polynomial Features           |Increases Model Complexity |_High Bias_    |
 |4. |Decrease Regularization Parameter |Decreases Penalty          |_High Bias_    |
 |5. |Increase Regularization Parameter |Increases Penalty          |_High Variance_|
