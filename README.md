@@ -260,8 +260,6 @@ plt.show()
 <br />
 <br />
 
-<center>
-
 |No.|**‘WHAT TO TRY NEXT?’**           |**Results**                |**Fixes**      |
 |-- |:---------------------------------|:--------------------------|:--------------|
 |1. |Try Smaller Set of Features       |Decreases Model Complexity |_High Variance_|
@@ -271,7 +269,6 @@ plt.show()
 |5. |Increase Regularization Parameter |Increases Penalty          |_High Variance_|
 |6. |Get More Training Examples        |Increases Sample Size      |_High Variance_|
 
-</center>
 
 _<p align = center> So as promised, here we have our **TOOL BOX - ‘WHAT TO TRY NEXT?’**  
     which, along with Validation and Learning Curves, will help us make smart decisions. </p>_
