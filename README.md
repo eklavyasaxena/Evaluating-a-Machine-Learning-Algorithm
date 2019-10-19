@@ -164,15 +164,15 @@ Image Source: [Python Data Science Handbook by Jake VanderPlas](https://jakevdp.
 |5. |Increase Regularization Parameter|                          |               |
 |6. |Get More Training Examples       |                          |               |
 
+
 ### 2. Varying Regularization Parameter
 
->To generate a dataset and plot a validation curve for varying regularization parameter is NOT within the scope of this discussion.  
-Still interested? Please refer [Python Data Science Handbook by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html#Regularization)
+>To generate a dataset and plot a validation curve for varying regularization parameter is NOT within the scope of this discussion. Still interested? Please refer [Python Data Science Handbook by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html#Regularization)
 
 We know that, the introduction of basis functions (PolynomialFeatures, GaussianFeatures etc.) into our linear regression makes the model much more flexible.  
 
-_<div style="text-align: center"> But, does it come with the risk of something? </div>_
-_<div style="text-align: center"> YES, and the answer is _**overfitting** </div>_
+_<p align = "center"> But, does it come with the risk of something? </p>_
+_<p align = "center"> YES, and the answer is _**overfitting** </p>_
 
 **Reason**: Our model is being too flexible to capture the outliers or extreme values in our training dataset.  
 **Solution**: Regularization
@@ -184,14 +184,15 @@ _<div style="text-align: center"> YES, and the answer is _**overfitting** </div>
 <img src="graph-Images/validationCurveLambda.png"> </img>
 Image Source Code: [Python Data Science Handbook by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/05.03-hyperparameters-and-model-validation.html)
 
-|No.|<p align="left">**‘WHAT TO TRY NEXT?’**|<p align="left">**Results**|<p align="left">**Fixes**|
-|-- |---------------------------------------|---------------------------|-------------------------|
-|1. |<p align="left">Try Smaller Set of Features|<p align="left">Decreases Model Complexity|<p align="left">_High Variance_|
-|2. |<p align="left">Add New Features|<p align="left"> Increases Model Complexity| <p align="left">_High Bias_|
-|3. |<p align="left">Add Polynomial Features|<p align="left">Increases Model Complexity|<p align="left">_High Bias_|
-|4. |<p align="left">Decrease Regularization Parameter ($\lambda$)|<p align="left">Decreases Penalty|<p align="left">_High Bias_|
-|5. |<p align="left">Increase Regularization Parameter ($\lambda$)|<p align="left">Increases Penalty|<p align="left">_High Variance_|
-|6. |<p align="left">Get More Training Examples||
+|No.|**‘WHAT TO TRY NEXT?’**           |**Results**                 |**Fixes**      |
+|-- |:---------------------------------|:---------------------------|---------------|
+|1. |Try Smaller Set of Features       |Decreases Model Complexity  |_High Variance_|
+|2. |Add New Features                  | Increases Model Complexity | _High Bias_   |
+|3. |Add Polynomial Features           |Increases Model Complexity  |_High Bias_    |
+|4. |Decrease Regularization Parameter |Decreases Penalty           |_High Bias_    |
+|5. |Increase Regularization Parameter |Increases Penalty           |_High Variance_|
+|6. |Get More Training Examples        |                            |               |
+
 
 
 ## Learning Curves
@@ -246,18 +247,19 @@ plt.show()
     * while the cross-validation score will continue to increase, until they meet in the middle.
 * We can expect that adding more training data will help.
 
-|No.|<p align="left">**‘WHAT TO TRY NEXT?’**|<p align="left">**Results**|<p align="left">**Fixes**|
-|-- |---------------------------------------|---------------------------|-------------------------|
-|1. |<p align="left">Try Smaller Set of Features|<p align="left">Decreases Model Complexity|<p align="left">_High Variance_|
-|2. |<p align="left">Add New Features|<p align="left"> Increases Model Complexity| <p align="left">_High Bias_|
-|3. |<p align="left">Add Polynomial Features|<p align="left">Increases Model Complexity|<p align="left">_High Bias_|
-|4. |<p align="left">Decrease Regularization Parameter ($\lambda$)|<p align="left">Decreases Penalty|<p align="left">_High Bias_|
-|5. |<p align="left">Increase Regularization Parameter ($\lambda$)|<p align="left">Increases Penalty|<p align="left">_High Variance_|
-|6. |<p align="left">Get More Training Examples|<p align="left">Increases Sample Size|<p align="left">_High Variance_|
+|No.|**‘WHAT TO TRY NEXT?’**           |**Results**                |**Fixes**      |
+|-- |:---------------------------------|:--------- ----------------|:--------------|
+|1. |Try Smaller Set of Features       |Decreases Model Complexity |_High Variance_|
+|2. |Add New Features                  | Increases Model Complexity| _High Bias_   |
+|3. |Add Polynomial Features           |Increases Model Complexity |_High Bias_    |
+|4. |Decrease Regularization Parameter |Decreases Penalty          |_High Bias_    |
+|5. |Increase Regularization Parameter |Increases Penalty          |_High Variance_|
+|6. |Get More Training Examples        |Increases Sample Size      |_High Variance_|
 
 
-_<div style="text-align: center"> So as promised, here we have our **TOOL BOX - ‘WHAT TO TRY NEXT?’**  
-    which, along with Validation and Learning Curves, will help us make smart decisions. </div>_
+
+_<p align = center> So as promised, here we have our **TOOL BOX - ‘WHAT TO TRY NEXT?’**  
+    which, along with Validation and Learning Curves, will help us make smart decisions. </p>_
 
 ### References
 * A lecture from **‘Machine Learning – Stanford Online’** at Coursera, by **Prof. Andrew Ng**
