@@ -12,8 +12,8 @@ During my course **‘Machine Learning – Stanford Online’** at Coursera, **P
 To start with, let’s call out all the possibilities or **‘WHAT TO TRY NEXT?’** when a hypothesis makes unacceptably large errors in its predictions or when there is a need to improve our hypothesis:
 
 
-| No. |   **‘WHAT TO TRY NEXT?’**                                           |
-|---  | :--------------------------------------------------------------------|
+| No. |   **‘WHAT TO TRY NEXT?’**                      |
+|---  | :----------------------------------------------|
 | 1.  | Try Smaller Set of Features                    |
 | 2.  | Add New Features                               |
 | 3.  | Add Polynomial Features                        |
@@ -27,6 +27,7 @@ _<p align="right"> We will revisit this table to make smart choices and create o
 
 The above-mentioned diagnosis will basically help to find a **Bias Variance Trade Off**.  
 Let’s visualize this concept briefly with a simple figure to illustrate the _overfitting_ (High Variance) and _underfitting_ (High Bias). 
+
 
 ## The Bias Variance Trade Off
 
@@ -150,6 +151,7 @@ plt.tight_layout()
 <img src="graph-Images/data-validationCurve.png"> </img>
 
 <img src="graph-Images/validationCurveDegree.png"> </img>
+
 Image Source: [Python Data Science Handbook by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/05.03-hyperparameters-and-model-validation.html)
 
 |No.|<p align="left">**‘WHAT TO TRY NEXT?’**|<p align="left">**Results**|<p align="left">**Fixes**|
