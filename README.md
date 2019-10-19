@@ -83,7 +83,7 @@ for i, d in enumerate(degrees):
     ax.set_title(titles[i])
 ```
 
-<img src="data.png"> </img>
+<img src="bias-variance.png"> </img>
 
 ## Validation Curves
 
@@ -227,6 +227,8 @@ plt.show()
 ```
 
 <img src="data-learningCurve.png"> </img>
+
+<img src="data-learningCurve15.png"> </img>
 
 **For Fixed Model Complexity (d = 1) - A High-Bias Estimator:**
 * It _underfits_ the data as both the training and validation scores are low, or the learning curves have converged to a low score.
