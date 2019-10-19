@@ -228,12 +228,12 @@ plt.show()
 
 <img src="data-learningCurve.png"> </img>
 
-<img src="data-learningCurve15.png"> </img>
-
 **For Fixed Model Complexity (d = 1) - A High-Bias Estimator:**
 * It _underfits_ the data as both the training and validation scores are low, or the learning curves have converged to a low score.
 * We can expect that adding more training data will not help
 * Revisit _‘WHAT TO TRY NEXT?’_ table to fix _High Bias_
+
+<img src="data-learningCurve15.png"> </img>
 
 **For Fixed Model Complexity (d = 15) - A High-Variance Estimator:**
 
