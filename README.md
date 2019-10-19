@@ -154,14 +154,15 @@ plt.tight_layout()
 
 Image Source: [Python Data Science Handbook by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/05.03-hyperparameters-and-model-validation.html)
 
-|No.|<p align="left">**‘WHAT TO TRY NEXT?’**|<p align="left">**Results**|<p align="left">**Fixes**|
-|-- |---------------------------------------|---------------------------|-------------------------|
-|1. |<p align="left">Try Smaller Set of Features|<p align="left">Decreases Model Complexity|<p align="left">_High Variance_|
-|2. |<p align="left">Add New Features|<p align="left"> Increases Model Complexity| <p align="left">_High Bias_|
-|3. |<p align="left">Add Polynomial Features|<p align="left">Increases Model Complexity|<p align="left">_High Bias_|
-|4. |<p align="left">Decrease Regularization Parameter ($\lambda$)||
-|5. |<p align="left">Increase Regularization Parameter ($\lambda$)||
-|6. |<p align="left">Get More Training Examples||
+
+|No.|**‘WHAT TO TRY NEXT?’**          |**Results**               |**Fixes**      |
+|-- |:--------------------------------|:-------------------------|:--------------|
+|1. |Try Smaller Set of Features      |Decreases Model Complexity|_High Variance_|
+|2. |Add New Features                 |Increases Model Complexity| _High Bias_   |
+|3. |Add Polynomial Features          |Increases Model Complexity|_High Bias_    |
+|4. |Decrease Regularization Parameter|                          |               |
+|5. |Increase Regularization Parameter|                          |               |
+|6. |Get More Training Examples       |                          |               |
 
 ### 2. Varying Regularization Parameter
 
