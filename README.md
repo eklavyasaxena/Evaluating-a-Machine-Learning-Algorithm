@@ -12,13 +12,13 @@ During my course **‘Machine Learning – Stanford Online’** at Coursera, **P
 To start with, let’s call out all the possibilities or **‘WHAT TO TRY NEXT?’** when a hypothesis makes unacceptably large errors in its predictions or when there is a need to improve our hypothesis:
 
 
-| No. | <p align="left"> **‘WHAT TO TRY NEXT?’** </p>|
-|---  |:---------------------------------------------------------------------|
+| <p align="left"> No.  </p>| <p align="left"> **‘WHAT TO TRY NEXT?’** </p>|
+|---  | --------------------------------------------------------------------|
 | 1.  | <p align="left"> Try Smaller Set of Features                    </p>|
 | 2.  | <p align="left"> Add New Features                               </p>|
 | 3.  | <p align="left"> Add Polynomial Features                        </p>|
-| 4.  | <p align="left"> Decrease Regularization Parameter ($\lambda$)  </p>|
-| 5.  | <p align="left"> Increase Regularization Parameter ($\lambda$)  </p>|
+| 4.  | <p align="left"> Decrease Regularization Parameter              </p>|
+| 5.  | <p align="left"> Increase Regularization Parameter              </p>|
 | 6.  | <p align="left"> Get More Training Examples                     </p>|
 
 
