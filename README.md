@@ -29,7 +29,6 @@ The above-mentioned diagnosis will basically help to find a **Bias Variance Trad
 Let’s visualize this concept briefly with a simple figure to illustrate the _overfitting_ (High Variance) and _underfitting_ (High Bias). 
 
 <br />
-<br />
 
 ## The Bias Variance Trade Off
 
@@ -88,7 +87,6 @@ for i, d in enumerate(degrees):
 
 <img src="graph-Images/bias-variance.png"> </img>
 
-<br />
 <br />
 
 ## Validation Curves
@@ -159,6 +157,7 @@ plt.tight_layout()
 
 Image Source: [Python Data Science Handbook by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/05.03-hyperparameters-and-model-validation.html)
 
+<br />
 
 |No.|**‘WHAT TO TRY NEXT?’**          |**Results**               |**Fixes**      |
 |-- |:--------------------------------|:-------------------------|:--------------|
@@ -191,6 +190,8 @@ YES, and the answer is **overfitting** </p>_
 
 Image Source Code: [Python Data Science Handbook by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/05.03-hyperparameters-and-model-validation.html)
 
+<br />
+
 |No.|**‘WHAT TO TRY NEXT?’**           |**Results**                 |**Fixes**      |
 |-- |:---------------------------------|:---------------------------|---------------|
 |1. |Try Smaller Set of Features       |Decreases Model Complexity  |_High Variance_|
@@ -200,7 +201,6 @@ Image Source Code: [Python Data Science Handbook by Jake VanderPlas](https://jak
 |5. |Increase Regularization Parameter |Increases Penalty           |_High Variance_|
 |6. |Get More Training Examples        |                            |               |
 
-<br />
 <br />
 
 ## Learning Curves
@@ -267,7 +267,6 @@ plt.show()
 |5. |Increase Regularization Parameter |Increases Penalty          |_High Variance_|
 |6. |Get More Training Examples        |Increases Sample Size      |_High Variance_|
 
-<br />
 
 _<p align = center> So as promised, here we have our **TOOL BOX - ‘WHAT TO TRY NEXT?’**  
     which, along with Validation and Learning Curves, will help us make smart decisions. </p>_
