@@ -176,7 +176,7 @@ Image Source: [Python Data Science Handbook by Jake VanderPlas](https://jakevdp.
 
 We know that, the introduction of basis functions (PolynomialFeatures, GaussianFeatures etc.) into our linear regression makes the model much more flexible.  
 
-_<p align = "center"> But, does it come with the risk of something?
+_<p align = "center"> But, does it come with the risk of something?  
 YES, and the answer is **overfitting** </p>_
 
 **Reason**: Our model is being too flexible to capture the outliers or extreme values in our training dataset.  
