@@ -244,7 +244,7 @@ plt.show()
 
 **Varying Sample Size for Fixed Model Complexity (d = 1) - A High-Bias Estimator:**
 * It _underfits_ the data as both the training and validation scores are low, or the learning curves have converged to a low score.
-* We can expect that adding more training data will not help
+* We can expect that adding more training data will NOT help
 * Revisit _‘WHAT TO TRY NEXT?’_ table to fix _High Bias_
 
 <img src="graph-Images/data-learningCurve15.png"> </img>
@@ -271,7 +271,7 @@ plt.show()
 
 
 _<p align = center> So as promised, here we have our **TOOL BOX - ‘WHAT TO TRY NEXT?’**  
-    which, along with Validation and Learning Curves, will help us make smart decisions. </p>_
+    which, along with Validation and Learning Curves, will help us to make smart decisions. </p>_
 
 <br />
 
@@ -279,3 +279,11 @@ _<p align = center> So as promised, here we have our **TOOL BOX - ‘WHAT TO TRY
 * A lecture from **‘Machine Learning – Stanford Online’** at Coursera, by **Prof. Andrew Ng**
 * [Python Data Science Handbook by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html)
 * [Scipy Lecture Notes](https://scipy-lectures.org/packages/scikit-learn/index.html)
+
+<br />
+
+Thank you for reading! Let me know in a comment if you felt like this did or didn’t help.  
+If this article was helpful, share it.  
+
+LinkedIn: https://linkedin.com/in/EklavyaSaxena/  
+GitHub: https://github.com/EklavyaSaxena  
