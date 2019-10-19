@@ -1,8 +1,10 @@
 # Evaluating a Machine Learning Algorithm
 > ### A TOOL BOX - ‘WHAT TO TRY NEXT?’
 
+<br />
+
 ## Overview
-With abundance of easy-to-use ML Libraries available, it is often appealing to apply them and achieve greater than 80% prediction accuracy in most cases. But, **‘WHAT TO TRY NEXT?’** is a question that buzz me, and may be other aspiring Data Scientists, a lot.
+With abundance of easy-to-use Machine Learning Libraries, it is often appealing to apply them and achieve greater than 80% prediction accuracy in most cases. But, **‘WHAT TO TRY NEXT?’** is a question that buzz me and may be other aspiring Data Scientists too.
 <br />
 <br />
 During my course **‘Machine Learning – Stanford Online’** at Coursera, **Prof. Andrew Ng** helped me sail through it. I hope this article, which briefs his explanation during one of his lectures, will help many of us to understand the importance of ‘debugging or diagnosing a learning algorithm’.
@@ -25,7 +27,7 @@ To start with, let’s call out all the possibilities or **‘WHAT TO TRY NEXT?�
 
 _<p align="right"> We will revisit this table to make smart choices and create our **TOOL BOX**. </p>_
 
-The above-mentioned diagnosis will basically help to find a **Bias Variance Trade Off**.  
+The above-mentioned diagnosis will basically help us to find a **Bias Variance Trade Off**.  
 Let’s visualize this concept briefly with a simple figure to illustrate the _overfitting_ (High Variance) and _underfitting_ (High Bias). 
 
 <br />
@@ -36,8 +38,8 @@ _Fundamentally, the question of "the best model" is about finding a sweet spot i
 <br />
 Here is a link to [The Bias Variance Trade Off](https://jakevdp.github.io/PythonDataScienceHandbook/05.03-hyperparameters-and-model-validation.html#The-Bias-variance-trade-off) explained beautifully by Jake VanderPlas in Python Data Science Handbook.
 
-Following code visualizes over different _degrees of polynomial_.  
-Please note that _overfitting_ and _underfitting_ can occur over different _regularization parameter_ and _training set size_.
+Following code visualizes fitting of our hypothesis over different _degrees of polynomial_.  
+Please note that _overfitting_ and _underfitting_ can also be visualized over different _regularization parameter_ and _training set size_.
 > Source Code: [Scipy Lecture Notes](https://scipy-lectures.org/packages/scikit-learn/auto_examples/plot_bias_variance.html#bias-and-variance-of-polynomial-fit)
 
 ```
@@ -240,14 +242,14 @@ plt.show()
 
 <img src="graph-Images/data-learningCurve.png"> </img>
 
-**For Fixed Model Complexity (d = 1) - A High-Bias Estimator:**
+**Varying Sample Size for Fixed Model Complexity (d = 1) - A High-Bias Estimator:**
 * It _underfits_ the data as both the training and validation scores are low, or the learning curves have converged to a low score.
 * We can expect that adding more training data will not help
 * Revisit _‘WHAT TO TRY NEXT?’_ table to fix _High Bias_
 
 <img src="graph-Images/data-learningCurve15.png"> </img>
 
-**For Fixed Model Complexity (d = 15) - A High-Variance Estimator:**
+**Varying Sample Size for Fixed Model Complexity (d = 15) - A High-Variance Estimator:**
 
 * It _overfits_ the data as the training score is much higher than the validation score.
 * As we add more samples to this training set:
@@ -258,6 +260,7 @@ plt.show()
 <br />
 <br />
 
+<center>
 |No.|**‘WHAT TO TRY NEXT?’**           |**Results**                |**Fixes**      |
 |-- |:---------------------------------|:--------------------------|:--------------|
 |1. |Try Smaller Set of Features       |Decreases Model Complexity |_High Variance_|
@@ -266,7 +269,7 @@ plt.show()
 |4. |Decrease Regularization Parameter |Decreases Penalty          |_High Bias_    |
 |5. |Increase Regularization Parameter |Increases Penalty          |_High Variance_|
 |6. |Get More Training Examples        |Increases Sample Size      |_High Variance_|
-
+</center>
 
 _<p align = center> So as promised, here we have our **TOOL BOX - ‘WHAT TO TRY NEXT?’**  
     which, along with Validation and Learning Curves, will help us make smart decisions. </p>_
