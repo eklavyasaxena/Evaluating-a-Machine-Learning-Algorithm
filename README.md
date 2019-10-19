@@ -13,13 +13,13 @@ To start with, let’s call out all the possibilities or **‘WHAT TO TRY NEXT?�
 
 
 | No. |   **‘WHAT TO TRY NEXT?’**                                           |
-|---  | --------------------------------------------------------------------|
-| 1.  | <p align="left"> Try Smaller Set of Features                    </p>|
-| 2.  | <p align="left"> Add New Features                               </p>|
-| 3.  | <p align="left"> Add Polynomial Features                        </p>|
-| 4.  | <p align="left"> Decrease Regularization Parameter              </p>|
-| 5.  | <p align="left"> Increase Regularization Parameter              </p>|
-| 6.  | <p align="left"> Get More Training Examples                     </p>|
+|---  | :--------------------------------------------------------------------|
+| 1.  | Try Smaller Set of Features                    |
+| 2.  | Add New Features                               |
+| 3.  | Add Polynomial Features                        |
+| 4.  | Decrease Regularization Parameter              |
+| 5.  | Increase Regularization Parameter              |
+| 6.  | Get More Training Examples                     |
 
 
 
@@ -83,7 +83,7 @@ for i, d in enumerate(degrees):
     ax.set_title(titles[i])
 ```
 
-<img src="bias-variance.png"> </img>
+<img src="graph-Images/bias-variance.png"> </img>
 
 ## Validation Curves
 
@@ -116,7 +116,7 @@ plt.title('The data')
 plt.legend(loc='best');
 ```
 
-<img src="data.png"> </img>
+<img src="graph-Images/data.png"> </img>
 
 Plot a validation curve for varying model complexity
 
@@ -147,9 +147,9 @@ plt.ylabel('explained variance')
 plt.title('Validation curve')
 plt.tight_layout()
 ```
-<img src="data-validationCurve.png"> </img>
+<img src="graph-Images/data-validationCurve.png"> </img>
 
-<img src="validationCurveDegree.png"> </img>
+<img src="graph-Images/validationCurveDegree.png"> </img>
 Image Source: [Python Data Science Handbook by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/05.03-hyperparameters-and-model-validation.html)
 
 |No.|<p align="left">**‘WHAT TO TRY NEXT?’**|<p align="left">**Results**|<p align="left">**Fixes**|
@@ -178,7 +178,7 @@ _<div style="text-align: center"> YES, and the answer is _**overfitting** </div>
 * This works well when we have a lot of features, each of which contributes a bit to our prediction.
 * So, we keep all the features, but reduce the magnitude or values of parameters.
 
-<img src="validationCurveLambda.png"> </img>
+<img src="graph-Images/validationCurveLambda.png"> </img>
 Image Source Code: [Python Data Science Handbook by Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/05.03-hyperparameters-and-model-validation.html)
 
 |No.|<p align="left">**‘WHAT TO TRY NEXT?’**|<p align="left">**Results**|<p align="left">**Fixes**|
@@ -226,14 +226,14 @@ for d in [1, 15]:
 plt.show()
 ```
 
-<img src="data-learningCurve.png"> </img>
+<img src="graph-Images/data-learningCurve.png"> </img>
 
 **For Fixed Model Complexity (d = 1) - A High-Bias Estimator:**
 * It _underfits_ the data as both the training and validation scores are low, or the learning curves have converged to a low score.
 * We can expect that adding more training data will not help
 * Revisit _‘WHAT TO TRY NEXT?’_ table to fix _High Bias_
 
-<img src="data-learningCurve15.png"> </img>
+<img src="graph-Images/data-learningCurve15.png"> </img>
 
 **For Fixed Model Complexity (d = 15) - A High-Variance Estimator:**
 
