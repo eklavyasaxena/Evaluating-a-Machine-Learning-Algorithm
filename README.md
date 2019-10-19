@@ -83,7 +83,7 @@ for i, d in enumerate(degrees):
     ax.set_title(titles[i])
 ```
 
-<img src="bias-variance.png"> </img>
+<img src="data.png"> </img>
 
 ## Validation Curves
 
